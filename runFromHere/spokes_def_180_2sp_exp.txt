@@ -1,0 +1,39 @@
+**********  S Y S T E M   P A R A M E T E R S  **********
+gradient strength (mT/m)=40
+gradient slew rate (T/m/s)=150
+maximum voltage on every channel (V)=150
+number of channels=8
+time sampling (s)=1e-5
+delay between RF and gradients (s)=0.0
+
+**********  A D J U S T E M E N T   D A T A  **********
+Whole Data path=../ExpData/whole.mat
+Inner Brain Data path path=../ExpData/inner.mat
+Special Region Inside Brain Data path=../ExpData/special.mat
+Target flip-angle=180
+
+**********  S P O K E S   P A R A M E T E R S  **********
+number of spokes=2
+slice direction=0.0	0.0	1.0
+slice thickness(m)=0.003
+slice distance from isocenter(m)=0.0
+number of sinc zero crossings=2.5
+slice selection gradient plateau (% of maximum gradient)=17
+coordinates spoke #2=0 0 0
+coordinates spoke #2=5 5 0
+
+**********  O P T I M I Z A T I O N   P A R A M E T E R S  **********
+maximum number of iterations=1000
+
+**********  S A R   C O N T R O L  **********
+local SAR matrices text file(W/kg)=./sarmats/vop.txt
+maximum local SAR constraint(W/kg)=10000
+global SAR matrix text file(W/kg)=./sarmats/glob_sar_mat.txt
+maximum global SAR constraint(W/kg)=2000
+maximum pulse power(W)=10000
+maximum average pulse power(W)=1000
+
+**********  R E S U L T S   **********
+output directory=./output
+
+
