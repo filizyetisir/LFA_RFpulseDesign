@@ -1,0 +1,47 @@
+**********  S Y S T E M   P A R A M E T E R S  **********
+maximum gradient amplitude (T/m)=2e-2
+maximum slew rate (T/m/s)=100
+maximum RFPA voltage(V)=900
+time sampling (s)=1e-5
+
+**********  T A R G E T   M A G N E T I Z A T I O N   &   B 1   M A P S  **********
+number of pixels in x=128
+number of pixels in y=128
+number of pixels in z=1
+image dimension in x (m)=0.0015625
+image dimension in y (m)=0.0015625
+image dimension in z (m)=0.005
+number of rows=1
+number of channels per row=8
+B1 maps prefix=B1plus
+target flip angle (degrees)=30
+ROI optimization file path=roi_128_128_1
+
+**********  S P O K E S   P A R A M E T E R S  **********
+number of spokes=2
+slice direction=0.0	0.0	1.0
+slice thickness(m)=0.005
+slice distance from isocenter(m)=0.0
+number of sinc zero crossings=6
+coordinates spoke #1=0.0		0.0	0.0
+coordinates spoke #2=5.0        5.0	0.0
+
+**********  O P T I M I Z A T I O N   P A R A M E T E R S  **********
+maximum number of iterations=1000
+
+**********  S A R   C O N T R O L  **********
+local SAR matrices text file(W/kg)=vop_dummy.txt
+maximum local SAR constraint(W/kg)=1e6
+global SAR matrix text file(W/kg)=glob_sar_mat.txt
+maximum global SAR constraint(W/kg)=1e6
+maximum pulse power(W)=1000
+maximum average pulse power(W)=100
+
+**********  R E S U L T S   **********
+output directory=./
+
+
+
+
+
+
